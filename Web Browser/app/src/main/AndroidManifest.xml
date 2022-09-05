@@ -14,7 +14,7 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".TabsActivity"
-            android:label="Tabs">
+            android:label="History">
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
