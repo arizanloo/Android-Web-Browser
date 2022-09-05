@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        android:tooltipText="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+    <item android:title="Home"
+        android:id="@+id/homemenuitem"
+        android:tooltipText="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="always"/>
+    <item android:title="History"
+        android:id="@+id/historymenuitem"
+        android:tooltipText="Tabs"
+        />
+    <item android:title="Search Engine"
+        android:id="@+id/searchenginemenuitem"
+        android:icon="@drawable/ic_baseline_tab_24"
+        android:tooltipText="Tabs"
+        />
+    <item android:title="Clear History"
+        android:id="@+id/clearhistorymenuitem"
+        android:icon="@drawable/ic_baseline_tab_24"
+        android:tooltipText="Tabs"
+        />
+</menu>

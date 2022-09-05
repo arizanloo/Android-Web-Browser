@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/radiogroug"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google" />
+
+        <RadioButton
+            android:id="@+id/radioButton_yahoo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yahoo!" />
+
+        <RadioButton
+            android:id="@+id/radioButton_bing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bing" />
+
+        <RadioButton
+            android:id="@+id/radioButton_duckduckgo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DuckDuckGo" />
+
+        <RadioButton
+            android:id="@+id/radioButton_ecosia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ecosia" />
+    </RadioGroup>
+</LinearLayout>
