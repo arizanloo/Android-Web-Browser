@@ -41,7 +41,7 @@ You also need to add this permission in AndroidManifest.xml:
 
 ## Software
 This Project was created using Android Studio 4.0 . <br />
-
+Gradle version: 6.1.1
 ## Extras
 If you have any idea that can improve project or is there any bugs that you've solved,
 submit it in Pull Requests or email me. 
